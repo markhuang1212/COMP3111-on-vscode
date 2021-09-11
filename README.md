@@ -7,7 +7,7 @@ Yet that's what HKUST kind of forced us to do (once on COMP1022P, now on COMP311
 **This repository aims to be a reference for myself and those who like to use VSCode's devcontainer (aka Docker) to develop for the course's Labs and Project.**
 If you don't know either of them, this repo is possibly not for you.
 
-Feel free to post PRs or Issuse.
+Feel free to post PRs or Issues.
 
 ## Brief Introduction
 
