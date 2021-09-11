@@ -2,7 +2,7 @@
 
 For those whose doesn't like Eclipse...
 
-Some programmers (such as me) doesn't like to use IDE, especially when faced with Eclipse with a laggy, overcomplicated and unintuitive UI (no offense). 
+Some programmers (such as me) doesn't like to use IDE, especially when faced with Eclipse with a laggy, overcomplicated and unintuitive UI (no offense!). 
 Yet that's what HKUST kind of forced us to do (once on COMP1022P, now on COMP3111/H).
 **This repository aims to be a reference for myself and those who like to use VSCode's devcontainer (aka Docker) to develop for the course's Labs and Project.**
 If you don't know either of them, this repo is possibly not for you.
@@ -11,11 +11,13 @@ Feel free to post PRs or Issuse.
 
 ## Brief Introduction
 
-VSCode is a text editor with a rich set of features. Docker provides a containerized environment, so what you install inside a docker container will not contaminate your Host OS.
-
-Microsoft provides many out-of-the-dox development environment, which includes Java with Gradle, used in COMP3111/H.
+VSCode's devcontainer uses Docker to provide an isolated development environment. Microsoft provides an out-of-the-box devcontainer for Java.
 
 Ecplise uses `Gradle` as its build system, which in itself is cross-platform, provides a cli interface, and can be used on VSCode.
+
+## Our Goal
+
+Use VSCode to develop project that is compatible with Eclipse's build system.
 
 ## Prerequisite
 
