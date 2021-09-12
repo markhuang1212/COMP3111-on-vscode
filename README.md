@@ -25,7 +25,9 @@ Use VSCode to develop project that is compatible with Eclipse's build system.
 
 ### With Container
 
-TBA
+* Eclipse (only to initialize project)
+* VSCode with `Remote - Containers` installed
+* Docker
 
 ### Without Container
 
@@ -37,7 +39,13 @@ TBA
 
 ### With Devcontainer
 
-TBA
+#### Quick Version
+
+* If you used VSCode's devcontainer before, just copy the folder `.devcontainer` to your project folder. Rest should be familiar.
+
+#### Long Version
+
+* Read https://code.visualstudio.com/docs/remote/containers-tutorial first, then follow the quick version.
 
 ### Without Container
 
