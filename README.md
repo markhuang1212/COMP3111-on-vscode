@@ -41,6 +41,7 @@ Use VSCode to develop project that is compatible with Eclipse's build system.
 
 #### Quick Version
 
+* Initialize the project in Eclipse or downlord the skeleton from canvas
 * If you used VSCode's devcontainer before, just copy the folder `.devcontainer` to your project folder. Rest should be familiar.
 
 #### Long Version
