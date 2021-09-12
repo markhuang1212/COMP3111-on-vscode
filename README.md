@@ -2,8 +2,6 @@
 
 For those whose doesn't like Eclipse...
 
-Some programmers (such as me) doesn't like to use IDE, especially when faced with Eclipse with a laggy, overcomplicated and unintuitive UI (no offense!). 
-Yet that's what HKUST kind of forced us to do (once on COMP1022P, COMP201(1|2) now on COMP3111/H).
 **This repository aims to be a reference for myself and those who like to use VSCode's devcontainer (aka Docker) to develop for the course's Labs and Project.**
 If you don't know either of them, this repo is possibly not for you.
 
