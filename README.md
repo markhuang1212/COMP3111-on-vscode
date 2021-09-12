@@ -7,9 +7,9 @@ If you don't know either of them, this repo is possibly not for you.
 
 Feel free to post PRs or Issues.
 
-## TODO
+## Current Progress
 
-It turns out that Microsoft's Java container doesn't support Java15, so I will write my own in the following days. For now, only the non-container version is supported.
+The setup works perfectly as of Lab1.
 
 ## Brief Introduction
 
