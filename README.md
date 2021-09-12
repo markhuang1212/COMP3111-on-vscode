@@ -28,15 +28,19 @@ Use VSCode to develop project that is compatible with Eclipse's build system.
 
 ## Project Initialization
 
-### Lab 1
+### General Approach
 
-1. Create a folder called `lab1`, open it in VSCode.
-2. Open Command Line Palette (Command+Shift+P), Select `Remote-Containers: Add Development Containers Configuration Files`, Select `Java`, Select `16`, select `none`, select `Install Maven` and `Install Gradle`.
-3. Open Command Line Palette and select `Remote-Containers: Open Folder in Containers`, select the current folder
-4. Wait for container to build, it will take a few minutes for the first time.
-5. In the VSCode's terminal, run `gradle init`, select `2: application` and `3: java` in corresponding questions. Press `enter` in other questions to use the default.
-6. Wait for about half a minute to let the Java Extension to do its job.
-7. Good to go! You can now build, test and debug in VSCode.
+1. Initialize a project in Eclipse as spcified by the Lab requirement, or download the skeleton code that is provided.
+    * This step can also be skipped if you know how to use `Gradle` via command line.
+2. Copy all the files to a seperate folder and open the folder in VSCode.
+3. Open Command Palette (Command+Shift+P), Select `Remote-Containers: Add Development Containers Configuration Files`, Select `Java`, Select `16`, select `none`, select `Install Maven` and `Install Gradle`.
+4. Open Command Palette and select `Remote-Containers: Open Folder in Containers`, select the current folder
+    * If VSCode asks you whether to open the current folder in Container, just select `yes`.
+5. Wait for container to build, it will take a few minutes for the first time.
+6. If VSCode ask `Do you want xxx to configure java automatically`, always select `yes`.
+7. You are good to go!
+
+If anything bad happen, you can always select `Rebuild Container` in the Command Palette.
 
 For Git Graphs, you can install the extension "Git Graph" in your VSCode container.
 
