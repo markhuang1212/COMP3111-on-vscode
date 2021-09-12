@@ -38,6 +38,8 @@ Use VSCode to develop project that is compatible with Eclipse's build system.
 6. Wait for about half a minute to let the Java Extension to do its job.
 7. Good to go! You can now build, test and debug in VSCode.
 
+For Git Graphs, you can install the extension "Git Graph" in your VSCode container.
+
 ## License
 
 MIT
