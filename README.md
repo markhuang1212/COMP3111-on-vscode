@@ -32,7 +32,7 @@ Use VSCode to develop project that is compatible with Eclipse's build system.
 
 1. Initialize a project in Eclipse as spcified by the Lab requirement, or download the skeleton code that is provided.
     * This step can also be skipped if you know how to use `Gradle` via command line.
-2. Copy all the files to a seperate folder and open the folder in VSCode.
+2. Copy all the files to a seperate folder and open the folder in VSCode, and change `distributionUrl` from `6.8` to `7.2` in the file `./gradle/wrapper/gradle-wrapper.properties`
 3. Open Command Palette (Command+Shift+P), Select `Remote-Containers: Add Development Containers Configuration Files`, Select `Java`, Select `16`, select `none`, select `Install Maven` and `Install Gradle`.
 4. Open Command Palette and select `Remote-Containers: Open Folder in Containers`, select the current folder
     * If VSCode asks you whether to open the current folder in Container, just select `yes`.
